@@ -16,7 +16,7 @@ app.get("/health", (req, res) => {
 // Sample API endpoint
 app.get("/api/hello", (req, res) => {
   res.json({
-    message: "Hello from Elastic Beanstalk CI/CD pipeline .",
+    message: "Hello! changed to display.",
   });
 });
 
